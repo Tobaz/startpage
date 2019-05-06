@@ -1,0 +1,19 @@
+{
+  "name": "startpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sass/mystyle.scss",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {
+    "bulma": "^0.7.4"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyle.scss css/style.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

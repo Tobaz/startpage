@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* Coolors Exported Palette - coolors.co/a31621-bfdbf7-053c5e-1f7a8c-db222a */
+
+/* HSL */
+$color1: hsla(355%, 76%, 36%, 1);
+$color2: hsla(210%, 78%, 86%, 1);
+$color3: hsla(203%, 90%, 19%, 1);
+$color4: hsla(190%, 64%, 34%, 1);
+$color5: hsla(357%, 73%, 50%, 1);
+
+/* RGB */
+$color1: rgba(163, 22, 33, 1);
+$color2: rgba(191, 219, 247, 1);
+$color3: rgba(5, 60, 94, 1);
+$color4: rgba(31, 122, 140, 1);
+$color5: rgba(219, 34, 42, 1);
+
+$primary: $color1;
+$info: $color2;
+$success: $color3;
+
+// Change this to only the stuff needed from bulma
+@import "../node_modules/bulma/bulma.sass";
